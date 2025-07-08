@@ -67,7 +67,7 @@ def call_fetch_completion_helper(dataset,model):
                 print(repr(e))
     return dataset
 if __name__ == "__main__":
-    dataset=load_dataset("parquet",data_files='../../datasets/test-00000-of-00001.parquet',split='train')
+    dataset=load_dataset("parquet",data_files='../../datasets/humaneval/test-00000-of-00001.parquet',split='train')
     dataset = [entry for entry in dataset]
     
     openai_api_key = "token-abc123"
