@@ -1,0 +1,1 @@
+https://hf-mirror.com/datasets/openai/openai_humaneval/resolve/main/openai_humaneval/test-00000-of-00001.parquet?download=true
