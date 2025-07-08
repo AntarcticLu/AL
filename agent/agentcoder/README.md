@@ -3,5 +3,10 @@ AgentCoder: Multi-Agent Code Generation with Effective Testing and Self-optimisa
 [code](https://github.com/huangd1999/AgentCoder/tree/main)
 
 original 
-
+```shell
+sh original_agentcoder.sh
+```
 langgraph
+```shell
+python langgraph_agentcoder.py
+```
