@@ -1,6 +1,6 @@
 #加载数据
 from datasets import load_dataset
-dataset=load_dataset("parquet",data_files='../../datasets/test-00000-of-00001.parquet',split='train')
+dataset=load_dataset("parquet",data_files='../../datasets/humaneval/test-00000-of-00001.parquet',split='train')
 dataset = [entry for entry in dataset]
 #加载提示词
 with open("./humaneval_prompt_update.txt", "r") as f:
