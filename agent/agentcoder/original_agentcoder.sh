@@ -1,3 +1,0 @@
-python programmer_humaneval.py
-python test_designer_humaneval.py
-python test_executor_humaneval.py
